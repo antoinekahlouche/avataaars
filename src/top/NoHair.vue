@@ -2,21 +2,9 @@
 	<g id="Top" stroke-width="1" fill-rule="evenodd">
 		<defs>
 			<rect :id="path1" x="0" y="0" width="264" height="280" />
-			<filter
-				:id="filter1"
-				x="-0.8%"
-				y="-2.0%"
-				width="101.5%"
-				height="108.0%"
-				filter-units="objectBoundingBox"
-			>
+			<filter :id="filter1" x="-0.8%" y="-2.0%" width="101.5%" height="108.0%" filter-units="objectBoundingBox">
 				<feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
-				<feColorMatrix
-					values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0"
-					type="matrix"
-					in="shadowOffsetOuter1"
-					result="shadowMatrixOuter1"
-				/>
+				<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1" />
 				<feMerge>
 					<feMergeNode in="shadowMatrixOuter1" />
 					<feMergeNode in="SourceGraphic" />

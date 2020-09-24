@@ -1,6 +1,6 @@
 {
 	"name": "@antoinekahlouche/avataaars",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Vue.js component for avataaars",
 	"main": "./dist/Avataaar.common.js",
 	"keywords": [
