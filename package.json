@@ -1,6 +1,6 @@
 {
 	"name": "@antoinekahlouche/avataaars",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"main": "./dist/Avataaar.common.js",
 	"scripts": {
 		"build": "vue-cli-service build --target lib --name Avataaar"
