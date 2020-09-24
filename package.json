@@ -1,9 +1,19 @@
 {
 	"name": "@antoinekahlouche/avataaars",
 	"version": "0.1.2",
+	"description": "Vue.js component for avataaars",
 	"main": "./dist/Avataaar.common.js",
+	"keywords": [
+	  "vuejs",
+	  "avatar",
+	  "avataaars"
+	],
+	"repository": "git@github.com:AntoineKahlouche/avataaars.git",
+	"author": "Antoine Kahlouche <antoine@kahlouche.fr>",
+	"license": "MIT",
 	"scripts": {
-		"build": "vue-cli-service build --target lib --name Avataaar"
+		"build": "vue-cli-service build --target lib --name Avataaar",
+		"publish": "npm publish --access public"
 	},
 	"dependencies": {
 		"vue": "^2.6.11"
